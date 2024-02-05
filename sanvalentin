@@ -1,0 +1,54 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Quieres ser mi San Valentín?</title>
+  <style>
+    body {
+      background-color: pink; /* Fondo rosa */
+      
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    #container {
+      text-align: center;
+      padding-top: 50px;
+    }
+    button {
+      margin: 10px;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    #si-btn {
+      background-color: #ff1493; /* Rosa intenso */
+      color: white;
+    }
+    #no-btn {
+      background-color: #ffc0cb; /* Rosa claro */
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <h1>¿Quieres ser mi San Valentín?</h1>
+    <button id="si-btn" onclick="mostrarMensaje()">Sí</button>
+    <button id="no-btn">No</button>
+    
+  </div>
+  <center>
+<img src="jm.gif" width="130">
+</center>
+  <script>
+    function mostrarMensaje() {
+      alert("¡Gracias por ser mi novia! Te amo mucho y tú y yo para siempre y amor que tengamos un san valentin bonito♡");
+    }
+  </script>
+</body>
+</html>
